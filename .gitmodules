@@ -1,0 +1,6 @@
+[submodule "nodegoat"]
+	path = nodegoat
+	url = https://github.com/OWASP/NodeGoat.git
+[submodule "railsgoat"]
+	path = railsgoat
+	url = https://github.com/OWASP/railsgoat.git
