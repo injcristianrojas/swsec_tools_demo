@@ -17,7 +17,7 @@ tested the tools against, not the minimal requirement.
 
 Clone the repo:
 
-```
+```shell
 git clone https://github.com/injcristianrojas/swsec_tools_demo.git
 cd swsec_tools_demo
 git submodule update --init --recursive
@@ -32,10 +32,20 @@ Go to `swsec_tools_demo/swsec-intro-java` and run `mvn site`.
 If you have RVM installed, go to `swsec_tools_demo`. Ruby gemset and version are
 configured. If you don't have the required Ruby version, RVM will alert saying
 something like `ruby-X.X.X is not installed`. Install it using
-`rvm install ruby-X.X.X`.
+`rvm install ruby-X.X.X`. After that, install the corresponding gems:
+
+```shell
+gem install bundler
+bundle install
+```
 
 ## Node.js
 
 If you have NVM installed, go to `swsec_tools_demo`. Run `nvm use`. If you don't
 have the reqiured Node and npm versions, NVM will alert with something like
-`version "vX.X.X" is not yet installed`. Install it using `nvm install vX.X.X`
+`version "vX.X.X" is not yet installed`. Install it using `nvm install vX.X.X`.
+After that, install the corresponding modules:
+
+```shell
+npm install -g retire nsp snyk
+```
