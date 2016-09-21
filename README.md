@@ -19,6 +19,8 @@ Clone the repo:
 
 ```
 git clone https://github.com/injcristianrojas/swsec_tools_demo.git
+cd swsec_tools_demo
+git submodule update --init --recursive
 ```
 
 ## Java
